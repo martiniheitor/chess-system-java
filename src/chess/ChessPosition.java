@@ -1,7 +1,10 @@
 package chess;
 
 import boardgame.Position;
+<<<<<<< HEAD
 import boardgame.Position;
+=======
+>>>>>>> 06abbaca9124e5b8d1a79e18acd4dae17fb22286
 
 public class ChessPosition {
 	
