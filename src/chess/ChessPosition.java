@@ -1,9 +1,16 @@
 package chess;
 
 import boardgame.Position;
+<<<<<<< HEAD
 
 public class ChessPosition {
 
+=======
+import boardgame.Position;
+
+public class ChessPosition {
+	
+>>>>>>> 3993511 (Little improvement in board printing)
 	private char column;
 	private int row;
 	
@@ -22,7 +29,11 @@ public class ChessPosition {
 	public int getRow() {
 		return row;
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> 3993511 (Little improvement in board printing)
 	protected Position toPosition() {
 		return new Position(8 - row, column - 'a');
 	}
@@ -35,5 +46,9 @@ public class ChessPosition {
 	public String toString() {
 		return "" + column + row;
 	}
+<<<<<<< HEAD
 	
 }
+=======
+}
+>>>>>>> 3993511 (Little improvement in board printing)
