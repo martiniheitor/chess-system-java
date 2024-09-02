@@ -1,3 +1,9 @@
+/*Classe responsável pelas partidas do xadrez. Nela, são guaradas listas das 
+ peças no tabuleiro e das peças já capturadas, analisar as peças que ainda estão no tabuleiro 
+ e suas posições, encontrar os possíveis movimentos de uma peça, validar, realizar e 
+ reverter(se necessário) os moviemntos desejados pelos jogadores, declarar e realizar movimentos
+ especiais, guardar a quantidade de turnos, análise de quem é o jogador e quem é seu oponente, 
+ cencepção de qundo o jogo está em Check ou Check Mate, e, finalmente, pela posição inicial de cada peça*/
 package chess;
 
 import java.util.ArrayList;
@@ -257,8 +263,8 @@ public class ChessMatch {
 	private void nextTurn() {
 		turn++;
 		currentPlayer = (currentPlayer == Color.WHITE) ? Color.BLACK : Color.WHITE;
-		// Se foi a vez das peças brancas, então será a vez das peças pretas, caso
-		// contrário, será das brancas
+		/*Se foi a vez das peças brancas, então será a vez das peças pretas, 
+		caso contrário, será das brancas*/
 	}
 	
 	private Color opponent(Color color) {

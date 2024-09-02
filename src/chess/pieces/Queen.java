@@ -1,3 +1,4 @@
+/*Classe da peça Rainha, contendo seus possíveis movimentos*/
 package chess.pieces;
 
 import boardgame.Board;

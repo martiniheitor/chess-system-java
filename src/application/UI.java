@@ -1,3 +1,7 @@
+/*Classe estrutrada para a interface do usuário. Com ela é possível dar cor as peças, 
+ ler a posiçao de uma peça ou a posição desejada para uma peça que será movida, declarar o jogador da partida, 
+ se o jogador está em Check ou Check Mate, o vencedor, imprimir o tabuleiro, imprimir os possíveis movimentos
+ de uma peça e as peças capturadas*/
 package application;
 
 import java.util.Arrays;

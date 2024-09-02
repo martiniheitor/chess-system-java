@@ -1,6 +1,6 @@
+/*Programa principal responsável pelo funcioanmento da partida*/
 package application;
 
-import java.security.InvalidParameterException;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;

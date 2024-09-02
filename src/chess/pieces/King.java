@@ -1,3 +1,4 @@
+/*Classe da peça Rei, contendo seus possíveis movimentos e movimeto especial*/
 package chess.pieces;
 
 import boardgame.Board;

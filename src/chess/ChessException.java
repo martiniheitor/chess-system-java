@@ -1,3 +1,4 @@
+/*Classe responsável pelas mnesagens de exceções das peças e tentativas de jogadas*/
 package chess;
 
 import boardgame.BoardException;

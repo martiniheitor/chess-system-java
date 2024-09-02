@@ -1,3 +1,4 @@
+/*Classe responsável pelas mnesagens de exceções do tabuleiro*/
 package boardgame;
 
 public class BoardException extends RuntimeException{

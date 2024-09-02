@@ -1,3 +1,4 @@
+/*Classe da peça Peão, contendo seus possíveis movimentos e movimento especial*/
 package chess.pieces;
 
 import boardgame.Board;

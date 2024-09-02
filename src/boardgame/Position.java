@@ -1,3 +1,5 @@
+/*Criação das linhas e das colunas para a estrutura do tabuleiro*/
+
 package boardgame;
 
 public class Position {

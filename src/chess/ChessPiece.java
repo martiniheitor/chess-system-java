@@ -1,3 +1,5 @@
+/*Classe abstrata para guardar a quantidade de movimetnos de uma peça
+ e reconhecer uma peça inimiga*/
 package chess;
 
 import boardgame.Board;

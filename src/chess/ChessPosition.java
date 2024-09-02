@@ -1,3 +1,4 @@
+/*Classe responsável pela troca de posição de uma peça, marcando o ponto de origem e o de chegada*/
 package chess;
 
 import boardgame.Position;

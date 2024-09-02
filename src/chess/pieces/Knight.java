@@ -1,3 +1,4 @@
+/*Classe da peça Cavalo, contendo seus possíveis movimentos*/
 package chess.pieces;
 
 import boardgame.Board;

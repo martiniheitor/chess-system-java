@@ -1,3 +1,5 @@
+/*Classe abstrata para delimitar os movimetnos para dentro da matriz(tabuleiro)*/
+
 package boardgame;
 
 public abstract class Piece {

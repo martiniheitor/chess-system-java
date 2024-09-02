@@ -1,3 +1,6 @@
+/*Classe reasponsável pela declaração da posição de uma peça, pelo movimento de peças, remoção de 
+ peças do tabuleiro e plea checagem de existência de uma posição*/
+
 package boardgame;
 
 public class Board {
@@ -68,7 +71,7 @@ public class Board {
 	
 	public boolean thereIsAPiece(Position position) {
 		if (!positionExists(position)) {
-			throw new BoardException("POsition not on the board");
+			throw new BoardException("Position not on the board");
 		}
 		return piece(position) != null;
 	}
